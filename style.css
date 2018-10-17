@@ -1,0 +1,42 @@
+/*
+	phones
+*/
+@media only screen and (max-width: 480px){
+	p{
+		width: 90%;
+		padding: 20px;
+		height: 500px;
+		color: white;
+		background: rgb(117,15,25);
+	}
+}
+
+/*
+	tablets
+*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	p{
+		width: 95%;
+		padding: 40px;
+		height: 400px;
+		color: white;
+		background: rgb(115,160,88);
+	}
+}
+
+/*
+	desktops
+*/
+@media only screen and (min-width: 769px){
+	p{
+		width: 50%;
+		padding: 300px;
+		height: 50px;
+		color: white;
+		background: rgb(89,126,165);
+	}
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+}
